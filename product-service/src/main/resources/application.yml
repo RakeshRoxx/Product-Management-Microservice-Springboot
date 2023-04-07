@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  data:
+    mongodb:
+#      uri: {{mongodb://localhost:27017/product-service}}
+      host: localhost
+      port: 27017
+      database: product-service
